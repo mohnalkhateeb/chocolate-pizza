@@ -10,7 +10,7 @@ body
 header
 {
     vertical-align: middle;
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
     padding: 25px;
     position: relative;
@@ -52,8 +52,189 @@ header
 }
 header h2
 {
-    background-image: linear-gradient(45deg, #ffffff 30%, #f0f0f0 30%, #f0f0f0 50%, #ffffff 50%, #ffffff 80%, #f0f0f0 80%, #f0f0f0 100%);
-    background-size: 9.90px 9.90px;
+    background-image: linear-gradient(45deg,white 30%,grey 30%, grey 50%, white 50%, white 80%, grey 80%, grey 100%);
+    background-size: 10px 10px;
     margin: 6em 0 4em 0;
     padding: 8px;
 }
+#choco-pizza h3:first-child
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5vw;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 1vw;
+}
+#choco-pizza h3:last-child
+{
+    color: lightgray;
+    display: inline;
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+#choco-pizza
+{
+    position: absolute;
+}
+#print
+{
+    float:right;
+    padding-top: 60px;
+}
+#print span
+{
+    color: lightgray;
+    font-family: 'Pathwa Gothic One', sans-serif;
+    font-size: small;
+    margin-right: 0;
+    outline: none;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+main img
+{
+    margin-top: 3vw;
+    width: 100%;
+}
+#pragraph p
+{
+    color: gray;
+    font-family: 'Crimson Text', serif;
+    font-size: large;
+    line-height: 2vw;
+    margin-top: 2vw;
+    text-indent: 3%;
+}
+#forms form
+{
+    color: gray;
+    display: inherit;
+    font-family: patrick hand, cursive;
+    line-height: 2.5em;
+    margin-top: -22em;
+    width: 100%;
+}
+#forms fieldset
+{
+    display: inline-block;
+    width: 40%;
+    
+}
+
+#forms img
+{
+    margin-top: 3.5vw;
+    width: 100%;
+}
+form fieldset:first-child
+{
+    padding-left: 150px;
+}
+input{
+    margin-top: 25px;
+   
+}
+main h2
+{
+    background-image: linear-gradient(45deg,white 30%,grey 30%, grey 50%, white 50%, white 80%, grey 80%, grey 100%);
+    background-size: 10px 10px;
+    margin: 6em 0 4em 0;
+    padding: 8px;
+}
+
+#vanessa h3
+{
+   font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 700;
+    display: inline;
+    
+    
+}
+#vanessa img
+{
+    width: 7.5em;
+   float: left;
+   margin-right: 2em;
+   margin-top: 0%;
+
+}
+#vanessa p
+{
+    font-size: large;
+    line-height: 1.3em;
+    width: 100%;
+    display: block;
+    color:grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+#vanessa 
+{
+    position:relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12em;
+}
+#share button
+{
+    color: white;
+    background-color: #ca8767;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    width: 6em;
+    float: right;
+    
+}
+main div
+{
+    display: inline-block;
+
+}
+#share
+{
+    position: relative;
+    padding-right: 0;
+    
+}
+main
+{
+    padding-inline: 0;
+}
+input:checked + label {
+    text-decoration: line-through;
+}
+footer h4
+{
+    background-color: gray;
+    width: 45%;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin: 6em 0 4em 0;
+    padding: .5px;
+    
+}
+
+footer img
+{
+    
+    display: inline-block;
+    width: 2em;
+    margin-bottom: 50px;
+    
+
+}
+footer
+{
+    text-align: center;
+    margin-top: 50px;
+    vertical-align: middle;
+    
+}
+footer p
+{
+    color: gray;
+}
+
+
